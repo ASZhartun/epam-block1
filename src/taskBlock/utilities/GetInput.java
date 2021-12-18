@@ -11,6 +11,7 @@ public class GetInput {
 
     public String scan() {
         String input;
+        System.out.println("Input String:");
         if (scanner.hasNextLine()) {
             input = scanner.nextLine();
         }
