@@ -3,13 +3,24 @@ package taskBlock.utilities;
 import java.util.Scanner;
 
 public class GetInput {
-    public static int integer() {
-        int result = 0;
-        try (Scanner scanner = new Scanner(System.in)) {
-            result = scanner.nextInt();
-        } catch (Exception e) {
-            System.out.println("Wrong value...");
+    Scanner scanner;
+
+    public GetInput() {
+        this.scanner = new Scanner(System.in);
+    }
+
+    public String scan() {
+        String input;
+        if (scanner.hasNextLine()) {
+            input = scanner.nextLine();
         }
-        return result;
+        else {
+            System.out.println("Error");
+            input = "";
+        }
+        return input;
+    }
+    public void close() {
+        scanner.close();
     }
 }
