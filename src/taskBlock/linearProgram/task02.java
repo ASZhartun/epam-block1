@@ -12,6 +12,7 @@ public class task02 {
         double a = Double.parseDouble(getInput.scan());
         double b = Double.parseDouble(getInput.scan());
         double c = Double.parseDouble(getInput.scan());
+        getInput.close();
         double result = b + Math.sqrt(b * b + 4 * a * c) / (2 * a) - Math.pow(a, 3) * c + Math.pow(b, -2);
         System.out.println("Result: " + result);
     }
