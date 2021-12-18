@@ -5,7 +5,7 @@ import taskBlock.utilities.GetInput;
 /**
  * Найти max{min(a, b), min(c, d)}.
  */
-public class task02 {
+public class Task02 {
     public static void main(String[] args) {
         GetInput getInput = new GetInput();
         System.out.print("a: ");

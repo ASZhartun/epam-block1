@@ -6,7 +6,7 @@ import taskBlock.utilities.GetInput;
  * 1. Даны два угла треугольника (в градусах).
  * Определить, существует ли такой треугольник, и если да, то будет ли он прямоугольным.
  */
-public class task01 {
+public class Task01 {
     public static void main(String[] args) {
         GetInput getInput = new GetInput();
         System.out.println("First angle");

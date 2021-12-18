@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 4. Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича.
  * Определить, пройдет ли кирпич через отверстие.
  */
-public class task04 {
+public class Task04 {
     public static void main(String[] args) {
         GetInput getInput = new GetInput();
         System.out.println("Dimensions of hole.");

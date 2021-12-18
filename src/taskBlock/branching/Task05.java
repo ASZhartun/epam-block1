@@ -8,7 +8,7 @@ import taskBlock.utilities.GetInput;
  * f(x) =   |
  *          { 1/(x^3 + 6), x > 3
  */
-public class task05 {
+public class Task05 {
     public static void main(String[] args) {
         GetInput getInput = new GetInput();
         double x = Double.parseDouble(getInput.scan());

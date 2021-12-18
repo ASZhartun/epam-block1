@@ -8,7 +8,7 @@ import taskBlock.utilities.GetInput;
  * y =  |
  *      { -x, x <=2
  */
-public class task02 {
+public class Task02 {
     public static void main(String[] args) {
         GetInput getInput = new GetInput();
         System.out.println("Scheme of input: a -> b -> h");

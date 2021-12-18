@@ -7,7 +7,7 @@ import taskBlock.utilities.GetInput;
  * Вывести данное значение длительности в часах, минутах и секундах в следующей форме:
  * ННч ММмин SSc.
  */
-public class task05 {
+public class Task05 {
     public static void main(String[] args) {
         GetInput getInput = new GetInput();
 
